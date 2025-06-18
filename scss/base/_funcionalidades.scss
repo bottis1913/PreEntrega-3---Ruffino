@@ -1,0 +1,51 @@
+//*----EXTEND---*//
+
+%boton-base {
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.productos a,
+.productos-container2 a {
+    @extend %boton-base;
+    background-color: black;
+    color: white;
+
+    &:hover {
+        background-color: rgb(153, 147, 147);
+    }
+}
+
+//*------MIXIN----*//
+
+@mixin boton($bg-color, $text-color) {
+    background-color: $bg-color;
+    color: $text-color;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+}
+
+.formulario-contacto button {
+    @include boton(black, white);
+}
+
+//*----VARIABLES----*//
+
+$color-principal: black;
+$color-secundario: white;
+$gris-claro: #f5f5f5;
+$gris-hover: rgb(153, 147, 147);
+$font-size-pequeño: 10px;
+$border-radius: 8px;
+
+.productos-container2 a {
+    background-color: $color-principal;
+    color: $color-secundario;
+}
+

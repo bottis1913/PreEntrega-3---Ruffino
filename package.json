@@ -1,0 +1,19 @@
+{
+  "name": "preentrega2---ruffino",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bottis1913/PreEntrega-2---Ruffino.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bottis1913/PreEntrega-2---Ruffino/issues"
+  },
+  "homepage": "https://github.com/bottis1913/PreEntrega-2---Ruffino#readme",
+  "description": ""
+}
