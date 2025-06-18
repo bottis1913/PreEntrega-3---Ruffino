@@ -12,3 +12,17 @@
         align-items: center;
     }
 }
+
+@media (max-width: 600px) {
+    .ayuda {
+        .tarjetas-ayuda {
+            flex-direction: column;
+            align-items: center;
+
+            .tarjeta {
+                width: 100%;
+                max-width: 320px;
+            }
+        }
+    }
+}
